@@ -35,6 +35,3 @@ A stylish, interactive Todo application that welcomes you based on the time of d
 - `index.html` - The core layout.
 - `todo.css` - Styles and keyframe animations.
 - `todo.js` - Main application logic and storage management.
-
----
-**Developed with ❤️ by a Class 11 Student Developer.**
