@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgba(0, 0, 48, 0.862);
+}
+#heading{
+  color: #ffff;
+  text-align: center;
+  display: none;  /*block*/
+  animation-name: todo;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+  font-size: 60px;
+  justify-content: center;
+}
+#greeting{
+  font-size: 30px;
+  color: white;
+  animation-name: to-greet;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+  display: inline-block; /* none*/
+  animation-fill-mode: forwards;
+}
+@keyframes to-greet {
+  25% {transform: translateX(60px);}
+  100% {transform: translateX(120px);}
+}
+@keyframes todo {
+  0% {transform: translateY(-20px);}
+  25% {transform: translateY(-30px);}
+  50% {transform: translateY(-40px);}
+  100% {transform: translateY(-55px);}
+}
+.whole{
+  display: none; /*block*/
+}
+.add-container,.articl{
+  margin: 0.5%;
+  display: flex;
+  justify-content: space-around;
+}
+.add-btn{
+  font-size: 20px;
+  color: #ffff;
+  border: 1px solid white;
+  padding: 1.2%;
+  border-radius: 21%;
+}
+#Your-todo{
+  background-color: rgba(0, 0, 48, 0.862);
+}
+.js-todos{
+  color: #ffff;
+}
+.js-done{
+  color: #ffff;
+  border: 1px solid white;
+  padding: 1.2%;
+  border-radius: 21%;
+
+}
