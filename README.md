@@ -20,6 +20,13 @@ A stylish, interactive Todo application that welcomes you based on the time of d
   - `DOM Manipulation` for dynamic element creation.
   - `Event Listeners` for keyboard interactions.
 
+## Preview of the project:
+<img width="1907" height="879" alt="Todo preview" src="https://github.com/user-attachments/assets/51cc6781-dd49-4bb0-840a-76c88fa02086" />
+
+<img width="1913" height="881" alt="Todo preview 2" src="https://github.com/user-attachments/assets/8f34521a-bfeb-407f-8353-3b4bbeb04b88" />
+
+
+
 ## 🚀 How to Use
 
 1. **Wait for the Greeting:** When you open the app, you'll see a personalized greeting.
